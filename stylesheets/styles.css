@@ -1,0 +1,98 @@
+/* #lucasmuller styles
+================================================== */
+
+body {
+    font-family: 'Actor', sans-serif;
+    background-image: url("../images/bg.jpg");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Belleza', sans-serif;
+}
+
+.complete-name {
+    margin-top: 40px
+}
+
+#branding {
+    padding-bottom: 10px;
+}
+
+#salutation {
+    padding: 20px 0px 40px 0px;
+}
+
+nav#primary ul {
+    display: block;
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+    -webkit-transition: all .25s ease-in;
+       -moz-transition: all .25s ease-in;
+         -o-transition: all .25s ease-in;
+            transition: all .25s ease-in;
+}
+
+nav#primary li {
+    border-top: 1px solid #eee;
+    float: left;
+    display: block;
+    margin: 0;
+    text-align: center;
+    width: 33.3333333%;
+    padding: 0;
+}
+
+nav#primary li:hover,
+nav#primary li.current_page_item {
+    border-top: 1px solid #c02702;
+    -webkit-box-shadow: 0px -2px 2px -2px #fc9191;
+       -moz-box-shadow: 0px -2px 2px -2px #fc9191;
+         -o-box-shadow: 0px -2px 2px -2px #fc9191;
+            box-shadow: 0px -2px 2px -2px #fc9191;
+}
+
+nav#primary a {
+    display: block;
+    height: 100%;
+    padding: 1em 0;
+    text-decoration: none; 
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: .857em;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+nav#primary a:hover,
+nav#primary .current_page_item a {
+    color:#c02702;
+}
+    
+nav#primary a, nav#primary li { 
+    -webkit-transition: all .25s ease-in-out; 
+       -moz-transition: all .25s ease-in-out;
+         -o-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;
+}
+
+#google-map {
+  padding-top: 45px;
+}
+
+#cv{
+	margin-top: 25px;
+	margin-left: 125px;
+}
+
+#research_interests{
+	margin-top: 20px;
+}
