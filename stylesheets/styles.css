@@ -20,7 +20,7 @@ h6 {
 }
 
 #branding {
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 #salutation {
@@ -33,7 +33,7 @@ nav#primary ul {
     margin: 0 auto;
     text-align: center;
     width: 100%;
-    padding: 20px 0px;
+    padding: 20px 0px 60px 0px;
     -webkit-transition: all .25s ease-in;
        -moz-transition: all .25s ease-in;
          -o-transition: all .25s ease-in;
@@ -90,9 +90,30 @@ nav#primary a, nav#primary li {
 
 #cv{
 	margin-top: 25px;
-	margin-left: 125px;
+	margin-left: 0px;
 }
 
 #research_interests{
 	margin-top: 20px;
 }
+
+#news td{
+	padding: 0 30px 0 0;
+}
+
+.column{
+	margin-bottom: 10px;
+}
+
+.news-date{
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
